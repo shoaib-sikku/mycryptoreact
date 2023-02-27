@@ -6,6 +6,7 @@ import Exchanges from "./components/Exchanges";
 import Dashboard from "./components/Dashboard";
 import CoinDetail from "./components/CoinDetail";
 import PageNotFound from "./components/PageNotFound";
+import GoToTop from "./GoToTop";
 import { ChakraProvider } from '@chakra-ui/react';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <ChakraProvider>
         <Footer />
         </ChakraProvider>
+        <GoToTop/>
       </Router>
     </>
   );

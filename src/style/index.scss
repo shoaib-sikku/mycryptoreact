@@ -67,6 +67,7 @@ img {
   background-color: white;
   h1.navbar-brand {
     font-size: 2.1rem;
+    color:rgb(58, 128, 233);
     a,:hover {
       color: black;
     }
@@ -156,4 +157,25 @@ img {
   border: 1px solid rgb(58, 128, 233);
   box-shadow: 0 0 5px rgb(58, 128, 233);
   transform: scale(1.1);
+}
+
+
+// =======================================
+//        GoToTop                           
+//===========================================
+.goToTop{
+  color: rgb(58, 128, 233);
+  font-size: 4rem;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  animation-name: top ;
+  animation-duration: .5s ;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes top{
+  from{
+    transform: translateY(-20px);
+  }
 }
